@@ -1,0 +1,36 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Mosfiq Node.js Chat Application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node init && cross-env NODE_ENV=development nodemon app.js",
+    "production": "cross-env NODE_ENV=production node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosfiqurbd/Chat-application.git"
+  },
+  "author": "Mosfiqur Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mosfiqurbd/Chat-application/issues"
+  },
+  "homepage": "https://github.com/mosfiqurbd/Chat-application#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.0",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
